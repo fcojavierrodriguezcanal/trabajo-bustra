@@ -4,28 +4,29 @@
     
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
-
-    <title>Únete</title>
-
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-
-    
-
-    
-
+    <title>Unete</title>
+    <link rel="icon" href="https://img.freepik.com/vector-gratis/ejemplo-lindo-icono-vector-historieta-salmon-sushi-concepto-icono-caracter-comida-estilo-dibujos-animados-plana_138676-2590.jpg?w=2000">
 <link href="./unete_files/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-
-    <!-- Favicons -->
-<link rel="apple-touch-icon" href="https://getbootstrap.com/docs/5.2/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
-<link rel="icon" href="https://getbootstrap.com/docs/5.2/assets/img/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
-<link rel="icon" href="https://getbootstrap.com/docs/5.2/assets/img/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
-<link rel="manifest" href="https://getbootstrap.com/docs/5.2/assets/img/favicons/manifest.json">
-<link rel="mask-icon" href="https://getbootstrap.com/docs/5.2/assets/img/favicons/safari-pinned-tab.svg" color="#712cf9">
-<link rel="icon" href="https://getbootstrap.com/docs/5.2/assets/img/favicons/favicon.ico">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 <meta name="theme-color" content="#712cf9">
 
 
     <style>
+          .fe-nav-header {
+      background-color: #FFE4C4 !important;
+    }
+
+    @media (min-width: 768px) {
+      .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+      }
+
+      .fe-nav-header {
+
+        background-color: #FFE4C4 !important;
+        
+      }
+    }
       .bd-placeholder-img {
         font-size: 1.125rem;
         text-anchor: middle;
@@ -39,6 +40,7 @@
           font-size: 3.5rem;
         }
       }
+
 
       .b-example-divider {
         height: 3rem;
@@ -76,143 +78,261 @@
         white-space: nowrap;
         -webkit-overflow-scrolling: touch;
       }
+      .container{
+        padding-top: 25vh;
+      }
+      .logo{
+        width: 400px;
+        height: 400px;
+      }
+      .title{
+        color: #008f39;
+      }
+      .inputgracioso{
+        background-color: #FFE4C4;
+        color: black;
+      }
+      .inputgracioso:focus{
+        background-color: #FFE4C4!important;
+        color: black;
+        border: #008f39;
+      }
+      .radiobuton:focus{
+        background-color: #008f39!important;
+      }
+      .botonverde{
+      background-color: #008f39;
+      color: white;
+      border: #008f39;
+      transition: 0.5s;
+      text-decoration: none;
+      margin-right: 3em;
+    }
+    .botonverde:hover{
+      background-color: #B9935A;
+    } 
+    a:link, a:visited, a:active {
+    text-decoration:none;
+    color: white;
+}a:hover {
+    text-decoration:none;   
+}
+body > div > footer > ul > li:nth-child(1) > a{
+  
+  color: blue;
+  text-decoration:none;
+}
+body > div > footer > ul > li:nth-child(2) > a{
+  
+  color: blue;
+  text-decoration:none;
+}
+.puntito{
+
+  accent-color: #008f39;
+}
     </style>
 
     
     <!-- Custom styles for this template -->
     <link href="./unete_files/form-validation.css" rel="stylesheet">
   </head>
-  <body class="bg-light" cz-shortcut-listen="true">
-    
+  <body class="bg-light">
+    <header>
+      <nav class="navbar navbar-expand-md navbar-light fixed-top bg-light fe-nav-header">
+        <a class="navbar-brand" href="https://getbootstrap.com/docs/4.4/examples/carousel/#"><img src="logo.png"
+            height="200"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+          aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="inicio.html">Inicio </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="productos.html">Productos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="unete.html">Únete</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
 <div class="container">
   <main>
-    
+    <div class="py-5 text-center">
+      <a href="inicio.html"><img class="d-block mx-auto mb-4 logo" src="logo.png" alt="" width="72" height="57"></a>
+    </div>
 
     <div class="row g-5">
+      <div class="col-md-5 col-lg-4 order-md-last">
+        <h4 class="d-flex justify-content-between align-items-center mb-3">
+          <span class="title">Tus pedidos</span>
 
-      
+        </h4>
+        <ul class="list-group mb-3">
+          <li class="list-group-item d-flex justify-content-between lh-sm">
+            <div>
+              <h6 class="my-0">Sushi</h6>
+            </div>
+            <span class="title">17,5€</span>
+          </li>
+          <li class="list-group-item d-flex justify-content-between lh-sm">
+            <div>
+              <h6 class="my-0">Mochis</h6>
+            </div>
+            <span class="title">8€</span>
+          </li>
+          <li class="list-group-item d-flex justify-content-between lh-sm">
+            <div>
+              <h6 class="my-0">Arroz tres Delicias</h6>
+            </div>
+            <span class="title">5€</span>
+          </li>
+          <li class="list-group-item d-flex justify-content-between">
+            <span>Total a pagar</span>
+            <strong class="title">30,5€</strong>
+          </li>
+        </ul>
+      </div>
       <div class="col-md-7 col-lg-8">
-        <h4 class="mb-3">Billing address</h4>
+        <h4 class="mb-3 title">Registrate y realiza tu compra con nosotros</h4>
         <form class="needs-validation" novalidate="">
           <div class="row g-3">
             <div class="col-sm-6">
-              <label for="firstName" class="form-label">First name</label>
-              <input type="text" class="form-control" id="firstName" placeholder="" value="" required="">
+              <label for="firstName" class="form-label">Nombre</label>
+              <input type="text" class="form-control inputgracioso" id="firstName" placeholder="" value="" required="">
               <div class="invalid-feedback">
-                Valid first name is required.
+               introduce tu nombre
               </div>
             </div>
 
             <div class="col-sm-6">
-              <label for="lastName" class="form-label">Last name</label>
-              <input type="text" class="form-control" id="lastName" placeholder="" value="" required="">
+              <label for="lastName" class="form-label">Apellidos</label>
+              <input type="text" class="form-control inputgracioso" id="lastName" placeholder="" value="" required="">
               <div class="invalid-feedback">
-                Valid last name is required.
+                introduce tu apellido
               </div>
             </div>
 
             <div class="col-12">
-              <label for="username" class="form-label">Username</label>
+              <label for="username" class="form-label">Usuario</label>
               <div class="input-group has-validation">
-                <span class="input-group-text">@</span>
-                <input type="text" class="form-control" id="username" placeholder="Username" required="">
+                <input type="text" class="form-control inputgracioso" id="username" placeholder="Usuario" required="">
               <div class="invalid-feedback">
-                  Your username is required.
+                  introduce tu usuario
                 </div>
               </div>
             </div>
 
             <div class="col-12">
-              <label for="email" class="form-label">Email <span class="text-muted">(Optional)</span></label>
-              <input type="email" class="form-control" id="email" placeholder="you@example.com">
+              <label for="email" class="form-label">Correo </label>
+              <input type="email" class="form-control inputgracioso" id="email" placeholder="correo@gmail.com">
               <div class="invalid-feedback">
-                Please enter a valid email address for shipping updates.
+                Introduce tu correo
               </div>
             </div>
 
             <div class="col-12">
-              <label for="address" class="form-label">Address</label>
-              <input type="text" class="form-control" id="address" placeholder="1234 Main St" required="">
+              <label for="address" class="form-label">Direccion</label>
+              <input type="text" class="form-control inputgracioso" id="address" placeholder="BUSTRA STREET AVENUE" required="">
               <div class="invalid-feedback">
-                Please enter your shipping address.
+                Introduce tu direccion correctamente
               </div>
             </div>
 
-            <div class="col-12">
-              <label for="address2" class="form-label">Address 2 <span class="text-muted">(Optional)</span></label>
-              <input type="text" class="form-control" id="address2" placeholder="Apartment or suite">
+
+
+            <div class="col-md-3">
+              <label for="zip" class="form-label">Codigo postal</label>
+              <input type="text" class="form-control inputgracioso" id="zip" placeholder="" required="">
+              <div class="invalid-feedback">
+                Introduce tu codigo postal
+              </div>
+            </div>
+          </div>
+
+          <hr class="my-4">
+
+          <div class="form-check">
+            <input type="checkbox" class="form-check-input puntito" id="same-address">
+            <label class="form-check-label" for="same-address">Deseo recibir noticias en mi correo</label>
+          </div>
+
+          <div class="form-check">
+            <input type="checkbox" class="form-check-input puntito" id="save-info">
+            <label class="form-check-label " for="save-info">Acepto los terminos y condiciones de uso</label>
+          </div>
+
+          <hr class="my-4">
+
+          <h4 class="mb-3">Método de pago</h4>
+
+          <div class="my-3">
+            <div class="form-check">
+              <input id="credit" name="paymentMethod" type="radio" class="form-check-input puntito" checked="" required="">
+              <label class="form-check-label " for="credit">Tarjeta de credito</label>
+            </div>
+            <div class="form-check">
+              <input id="debit" name="paymentMethod" type="radio" class="form-check-input puntito" required="">
+              <label class="form-check-label " for="debit">Tarjeta de debito</label>
+            </div>
+            <div class="form-check">
+              <input id="paypal" name="paymentMethod" type="radio" class="form-check-input puntito" required="">
+              <label class="form-check-label " for="paypal">PayPal</label>
+            </div>
+          </div>
+
+          <div class="row gy-3">
+            <div class="col-md-6">
+              <label for="cc-name" class="form-label">Nombre de la tarjeta</label>
+              <input type="text" class="form-control inputgracioso" id="cc-name" placeholder="" required="">
+              <div class="invalid-feedback">
+               Requiere el nombre de tu tarjeta
+              </div>
             </div>
 
-<div class="col-md-4">
- <div class="form-group">
-    <label for="exampleFormControlSelect1">Seleccione su ciudad</label>
-    <select class="form-control" id="exampleFormControlSelect1">
-      <option value="australia">Sevilla</option>
-          <option value="canada">Huelva</option>
-          <option value="usa">Cadiz</option>
-          <option value="australia">Granada</option>
-          <option value="canada">Cordoba</option>
-          <option value="usa">Almeria</option>
-          <option value="australia">Malaga</option>
-          <option value="canada">Jaen</option>
-          <option value="usa">Badajoz</option>
-          <option value="australia">Ciudad Real</option>
-          <option value="canada">Albacete</option>
-          <option value="usa">Murcia</option>
-          <option value="australia">Alicante</option>
-          <option value="canada">Valencia</option>
-          <option value="canada">Cuenca</option>  
-          <option value="canada">Toledo</option>  
-          <option value="canada">Cáceres</option> 
-          <option value="canada">Salamanca</option>  
-          <option value="canada">Ávila</option> 
-          <option value="canada">Madrid</option> 
-          <option value="usa">Guadalajara</option>  
-          <option value="canada">Teruel</option>  
-          <option value="canada">Castellon</option> 
-          <option value="canada">Segovia</option> 
-          <option value="canada">Zamora</option> 
-          <option value="canada">Valladolid</option> 
-          <option value="canada">Soria</option>
-          <option value="canada">Barcelona</option>
-          <option value="canada">Tarragona</option>
-          <option value="canada">Girona</option> 
-          <option value="canada">Lleida</option> 
-          <option value="canada">Huesca</option> 
-          <option value="canada">La Rioja</option>
-          <option value="canada">Navarra</option>
-          <option value="canada">Álava</option>
-          <option value="canada">Guipuzcoa</option>
-          <option value="canada">Vizcaya</option>
-          <option value="canada">Cantabria</option>
-          <option value="canada">Burgos</option>
-          <option value="canada">Palencia</option>
-          <option value="canada">León</option>
-          <option value="canada">Orense</option>
-          <option value="canada">Pontevedra</option>
-          <option value="canada">La Coruña</option>
-          <option value="canada">Lugo</option>
-    </select>
-  </div>
-</div>
-    
-          <button class="w-100 btn btn-primary btn-lg" type="submit">Continue to checkout</button>
+            <div class="col-md-6">
+              <label for="cc-number" class="form-label">Número de la tarjeta</label>
+              <input type="text" class="form-control inputgracioso" id="cc-number" placeholder="" required="">
+              <div class="invalid-feedback">
+                Requiere el numero de la tarjeta
+              </div>
+            </div>
+
+            <div class="col-md-3">
+              <label for="cc-expiration" class="form-label">Expiración</label>
+              <input type="text" class="form-control inputgracioso" id="cc-expiration" placeholder="" required="">
+              <div class="invalid-feedback">
+                Requiere fecha de expiracion
+              </div>
+            </div>
+
+            <div class="col-md-3">
+              <label for="cc-cvv" class="form-label">CVV</label>
+              <input type="text" class="form-control inputgracioso" id="cc-cvv" placeholder="" required="">
+              <div class="invalid-feedback">
+                Requiere el codigo de seguridad 
+              </div>
+            </div>
+          </div>
+
+          <hr class="my-4">
+
+          <button type="button" class="btn btn-primary btn-lg px-4 me-md-2 botonverde"><a href="inicio.html" class="enlace">Finalizar y pagar</a></button>
         </form>
       </div>
     </div>
   </main>
 
-  <div class="col-9 form-group">
-    <label for="exampleFormControlTextarea1">Example textarea</label>
-    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-  </div>
-
   <footer class="my-5 pt-5 text-muted text-center text-small">
-    <p class="mb-1">© 2017–2022 Company Name</p>
+    <p class="mb-1">Desde 2020 hasta ahora</p>
     <ul class="list-inline">
-      <li class="list-inline-item"><a href="https://getbootstrap.com/docs/5.2/examples/checkout/#">Privacy</a></li>
-      <li class="list-inline-item"><a href="https://getbootstrap.com/docs/5.2/examples/checkout/#">Terms</a></li>
-      <li class="list-inline-item"><a href="https://getbootstrap.com/docs/5.2/examples/checkout/#">Support</a></li>
+      <li class="list-inline-item"><a href="https://washoku.es/politica-de-privacidad/">Privacidad</a></li>
+      <li class="list-inline-item"><a href="http://tienda.comida-asiatica-gourmet.com/terminos-y-condiciones-envio-tienda-espana/">Terminos</a></li>
     </ul>
   </footer>
 </div>
@@ -221,8 +341,13 @@
     <script src="./unete_files/bootstrap.bundle.min.js.descarga" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 
       <script src="./unete_files/form-validation.js.descarga"></script>
-      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+      <script src="./compra_files/bootstrap.bundle.min.js.descarga" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+      <script defer src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+      crossorigin="anonymous"></script>
   
 
 </body></html>
